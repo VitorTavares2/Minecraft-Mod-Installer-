@@ -1,0 +1,70 @@
+{
+    "shaders": [
+        {
+            "id": "none",
+            "name": "Sem Shader",
+            "description": "Manter o visual padrão do Minecraft",
+            "tier": "none",
+            "min_version": "1.0",
+            "max_version": "99.0",
+            "requires_optifine": false,
+            "requires_iris": false,
+            "file": null
+        },
+        {
+            "id": "sildurs_basic",
+            "name": "Sildur's Basic",
+            "description": "Shader clássico e leve, compatível com versões antigas",
+            "tier": "low",
+            "min_version": "1.8",
+            "max_version": "99.0",
+            "requires_optifine": true,
+            "requires_iris": false,
+            "file": "Sildurs-Shaders-v1.35-Basic.zip",
+            "loader_note": "Compatível com 1.8+. Requer OptiFine."
+        },
+        {
+            "id": "makeup_ultra_fast",
+            "name": "MakeUp Ultra Fast",
+            "description": "Shader leve moderno com efeitos configuráveis individualmente",
+            "tier": "low",
+            "min_version": "1.12",
+            "max_version": "99.0",
+            "requires_optifine": true,
+            "requires_iris": true,
+            "file": "MakeUp-UltraFast.zip",
+            "loader_note": "Compatível com 1.12+. OptiFine ou Iris."
+        },
+        {
+            "id": "complementary_reimagined",
+            "name": "Complementary Reimagined",
+            "description": "Shader universal com presets de Potato a Extreme. O melhor custo-benefício.",
+            "tier": "medium",
+            "min_version": "1.16",
+            "max_version": "99.0",
+            "requires_optifine": true,
+            "requires_iris": true,
+            "file": "ComplementaryReimagined_r5.7.zip",
+            "loader_note": "Compatível com 1.16+. Iris (recomendado) ou OptiFine.",
+            "sub_presets": {
+                "potato": "Potato",
+                "pvp": "Low",
+                "miner": "Medium",
+                "balanced": "Medium",
+                "quality": "Ultra"
+            }
+        },
+        {
+            "id": "seus_ptgi",
+            "name": "SEUS PTGI",
+            "description": "Path tracing sem RTX. Visual ultra-realista para PCs potentes.",
+            "tier": "high",
+            "min_version": "1.16",
+            "max_version": "99.0",
+            "requires_optifine": true,
+            "requires_iris": false,
+            "file": "SEUS-PTGI-E12.zip",
+            "loader_note": "Compatível com 1.16+. Requer OptiFine. Exige GPU dedicada."
+        }
+    ]
+}
