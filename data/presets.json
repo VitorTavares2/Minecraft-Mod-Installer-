@@ -1,0 +1,101 @@
+{
+    "presets": [
+        {
+            "id": "potato",
+            "name": "PC Batata",
+            "description": "Performance máxima para computadores fracos",
+            "icon": "🥔",
+            "options": {
+                "graphicsMode": "0",
+                "renderDistance": "4",
+                "simulationDistance": "4",
+                "ao": "false",
+                "particles": "2",
+                "useVsync": "false",
+                "maxFps": "260",
+                "clouds": "false",
+                "entityShadows": "false",
+                "mipmapLevels": "0",
+                "gamma": "1.0"
+            }
+        },
+        {
+            "id": "pvp",
+            "name": "PVP Competitivo",
+            "description": "FPS máximo e gráficos baixos para servidores PVP",
+            "icon": "⚔️",
+            "options": {
+                "graphicsMode": "0",
+                "renderDistance": "8",
+                "simulationDistance": "8",
+                "ao": "false",
+                "particles": "2",
+                "useVsync": "false",
+                "maxFps": "260",
+                "clouds": "false",
+                "entityShadows": "false",
+                "mipmapLevels": "1",
+                "gamma": "5.0",
+                "bobView": "false",
+                "attackIndicator": "1"
+            }
+        },
+        {
+            "id": "miner",
+            "name": "Minerador / Fullbright",
+            "description": "Brilho máximo, veja no escuro sem precisar de tochas",
+            "icon": "⛏️",
+            "options": {
+                "gamma": "1000.0",
+                "graphicsMode": "1",
+                "renderDistance": "12",
+                "simulationDistance": "12",
+                "ao": "true",
+                "particles": "1",
+                "useVsync": "false",
+                "maxFps": "120",
+                "clouds": "fast",
+                "entityShadows": "true",
+                "mipmapLevels": "2"
+            }
+        },
+        {
+            "id": "balanced",
+            "name": "Balanceado",
+            "description": "Boa relação entre qualidade visual e desempenho",
+            "icon": "⚖️",
+            "options": {
+                "graphicsMode": "1",
+                "renderDistance": "12",
+                "simulationDistance": "12",
+                "ao": "true",
+                "particles": "1",
+                "useVsync": "false",
+                "maxFps": "120",
+                "clouds": "fast",
+                "entityShadows": "true",
+                "mipmapLevels": "2",
+                "gamma": "1.0"
+            }
+        },
+        {
+            "id": "quality",
+            "name": "Qualidade",
+            "description": "Máxima qualidade visual para PCs potentes",
+            "icon": "💎",
+            "options": {
+                "graphicsMode": "2",
+                "renderDistance": "16",
+                "simulationDistance": "16",
+                "ao": "true",
+                "particles": "0",
+                "useVsync": "true",
+                "maxFps": "260",
+                "clouds": "fancy",
+                "entityShadows": "true",
+                "mipmapLevels": "4",
+                "gamma": "1.0"
+            }
+        }
+    ]
+}
